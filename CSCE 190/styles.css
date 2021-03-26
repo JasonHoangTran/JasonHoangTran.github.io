@@ -10,13 +10,20 @@ body
     padding:10px;
     margin:10px;
     background:#C3D5EB;
+    border-radius:10px; 
 }
 
 .assignment img
 {
     width:200px;
-    padding:10px;
+    margin: 10px;
+    border: 4px solid #FFF;
 } 
+
+.assignment img:hover
+{
+    border:4px solid #A3A6D8;
+}
 
 h1
 {
@@ -24,3 +31,13 @@ h1
     text-align:center;
 }
 
+a
+{
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover
+{
+    color: #FFF;
+}
