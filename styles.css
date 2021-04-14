@@ -6,11 +6,18 @@ body
 
 .assignment 
 {
-    display:flex;
+    width:22%;
     padding:10px;
     margin:10px;
+    padding:20px 10;
     background:#C3D5EB;
     border-radius:10px; 
+}
+
+.assignments
+{
+    display:flex;
+    flex:wrap;
 }
 
 .assignment img
@@ -18,6 +25,8 @@ body
     width:200px;
     margin: 10px;
     border: 4px solid #FFF;
+    display:block;
+    margin:auto;
 } 
 
 .assignment img:hover
@@ -28,6 +37,11 @@ body
 h1
 {
     color:darkblue;
+    text-align:center;
+}
+
+h2
+{
     text-align:center;
 }
 
